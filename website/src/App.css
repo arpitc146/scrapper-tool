@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+:root {
+  --base: #14a44d;
+}
+* {
+  font-family: "Comfortaa", cursive;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  transition: 0.1s;
+}
+a img {
+  transition: 0.1s;
+  overflow: hidden;
+}
+a:hover {
+  color: var(--base);
+}
+a:hover img {
+  transform: scale(1.1);
+}
+.dashboard-card {
+  background-color: var(--base);
+  width: 100%;
+  padding: 50px;
+  height: 30vh;
+  overflow: hidden;
+  border-radius: 50px;
+}
+.dashboard-card .text-end,
+.navbar-brand {
+  overflow-y: hidden;
+}
+.dashboard-card span {
+  background: white;
+  padding: 20px;
+}
